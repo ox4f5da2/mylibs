@@ -8,10 +8,12 @@
 > 描述：这是一个JS库，打包了数学、数据结构、函数、URL和数组的常用函数。
 
 - 关键词：**javascript tools**
+
 - 版本：**1.0.2**
 - 作者：**Karl_fang**
 - 发布时间：**2022-04-07**
 - NPM包地址：https://www.npmjs.com/package/@karl_fang/mylibs
+
 - 所提供的类名：
 
 |    类名     |           功能           |
