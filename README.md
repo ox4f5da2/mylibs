@@ -11,7 +11,7 @@
 - 作者：karl_fang
 - 发布时间：2022-04-07
 - GitHub：[Karl_fang](https://github.com/ox4f5da2)
-- GitHub地址：https://github.com/ox4f5da2/mylibs
+- NPM地址：https://www.npmjs.com/package/@karl_fang/mylibs
 - 所提供的类名：
 
 |    类名     |           功能           |
