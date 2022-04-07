@@ -2,16 +2,16 @@
 
 ## 前言
 
-- 这是我的第一个npm包，做这个为了熟悉下发包的流程，也会有成就感。
+- 这是我的第一个npm包，做这个为了熟悉下发包的流程，也会有成就感，如果喜欢的话给个🌟吧，以后会更新的
 - **description**：This is a JS library that packages the common functions of mathematics, data structure, function, URL and array.
 
 > 描述：这是一个JS库，打包了数学、数据结构、函数、URL和数组的常用函数。
 
 - 关键词：**javascript tools**
-- 作者：karl_fang
-- 发布时间：2022-04-07
-- GitHub：[Karl_fang](https://github.com/ox4f5da2)
-- GitHub地址：https://github.com/ox4f5da2/mylibs
+- 版本：**1.0.2**
+- 作者：**Karl_fang**
+- 发布时间：**2022-04-07**
+- NPM包地址：https://www.npmjs.com/package/@karl_fang/mylibs
 - 所提供的类名：
 
 |    类名     |           功能           |
@@ -21,6 +21,36 @@
 | MyFunctions |      提供了常用函数      |
 |  MyRegExp   | 提供了正则匹配的相关函数 |
 |    MyURL    |   提供了URL的相关函数    |
+
+- 下载安装npm包：
+
+```shell
+npm i @karl_fang/mylibs
+```
+
+- 卸载npm包：
+
+```shell
+npm unistall @karl_fang/mylibs
+```
+
+- 使用npm包的函数：
+
+```vue
+// HelloWorld.vue
+<script>
+import { MythTools } from '@karl_fang/mylibs'
+export default {
+  name: "HelloWorld",
+  props: {
+    msg: String,
+  },
+  mounted() {
+    console.log(MythTools.add([1, 2, 3]));
+  },
+};
+</script>
+```
 
 
 
